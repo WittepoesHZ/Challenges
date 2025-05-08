@@ -3,40 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <title>Dummy Articles</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      padding: 20px;
-      background-color: #f0f0f0;
-    }
-    article {
-      background: white;
-      padding: 20px;
-      margin-bottom: 20px;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-    h2 {
-      margin: 0 0 10px 0;
-    }
-    .author {
-      font-weight: bold;
-      margin-bottom: 10px;
-    }
-    .description {
-      margin-bottom: 10px;
-    }
-    .date {
-      color: gray;
-      font-size: 0.9em;
-    }
-  </style>
+  <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
 
   <h1>Dummy Articles</h1>
 
-  <article>
+  <article class="article1">
     <h2>Article Title 1</h2>
     <div class="author">John Doe</div>
     <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac vestibulum erat.</div>
@@ -64,12 +37,14 @@
     <div class="date">April 21, 2025</div>
   </article>
 
-  <article>
-    <h2>Article Title 5</h2>
-    <div class="author">Michael Lee</div>
-    <div class="description">Aliquam erat volutpat. Vestibulum at convallis elit.</div>
-    <div class="date">April 20, 2025</div>
-  </article>
+  <div class="centered-article-wrapper">
+    <article>
+      <h2>Article Title 5</h2>
+      <div class="author">Michael Lee</div>
+      <div class="description">Aliquam erat volutpat. Vestibulum at convallis elit.</div>
+      <div class="date">April 20, 2025</div>
+    </article>
+  </div>
 
   <article>
     <h2>Article Title 6</h2>
